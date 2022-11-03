@@ -1,12 +1,11 @@
 # Git и GitHub
-## Git
 Краткое руководство
 
 **created by** araz abdyev
 
 **tg** @xxx_bulka
 
-#### Начало
+## Git
 Проверка версии гита
 
     git --version
