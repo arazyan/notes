@@ -1,5 +1,5 @@
 # Тут лежат мои конспекты и руководства
 
-[git](https://github.com/arazyan/notes/blob/main/git.md)
+[git](https://github.com/arazyan/notes/blob/main/manuals/git.md)
 
-[terminal commands](https://github.com/arazyan/notes/blob/main/terminal.md)
+[terminal commands](https://github.com/arazyan/notes/blob/main/manuals/terminal.md)
