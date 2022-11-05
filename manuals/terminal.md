@@ -82,8 +82,9 @@ psql -U *database name* - запустить базу данных в терми
 
 pwd - print working directory - показать директорию, в которой мы сейчас находимся
 
-#### запустить питон файлик в консоли
-python3 main.py
+#### Запустить питон файлик в консоли
+```python3 main.py```
+
 ctrl+D или exit() - выход 
 
 #### Содержимое файла в терминал (обычно небольшого)
@@ -110,9 +111,10 @@ ctrl + V  - в конец
 #### Очистка файла
 Можно через nano, а можно перенаправлением
 
-echo '' > ~/Desktop/ls.txt
+```echo '' > ~/Desktop/ls.txt```
 
 #### Поиск файла по системе
+```mdfind```
 mdfind *name* - ищет по названию, а также содержимому по ключу *name*
 
 #### Поиск файла(приложения) по названию
@@ -121,26 +123,28 @@ mdfind -name *name* - найдет файлы, в которых *name* закл
 Эта штука позволит выкниуть нам путь апликухи, которую мы затем можем удалить через терминал
 
 #### Выведем рез-т поиска в .txt и проанализируем получше перед удалением
-mdfind -name *name* > ~/Desktop/list.txt
+```mdfind -name *name* > ~/Desktop/list.txt```
 
 #### Удаление приложения
-sudo rm -rif /Applications/*name*.app
+```sudo rm -rif /Applications/*name*.app```
 
 #### Юзкейс: удаление CLion
-mdfind -name CLion
+```mdfind -name CLion```
 
-sudo rm -rif /Applications/CLion.app
+```sudo rm -rif /Applications/CLion.app```
 
 #### Команда man
+```man```
+
 man mdfind - позволяет получить мануал по какой-то команде
 
 #### Юзкейс: перемещение нескольких файлов с похожим названием
 пусть у нас есть файлы lecture1.pdf, lecture2.pdf, lect3.pdf
 
-mv ~/Downloads/lec* .
+```mv ~/Downloads/lec* .```
 
 #### Временный алиас на команду (работает до перезагрузки)
-alias синоним="команда"
+```alias синоним="команда"```
 
 пример
 
@@ -153,13 +157,11 @@ unalias mygithub
 #### Создание вечного алиаса
 делается через редактирование скрытого файла *~/.zshrc*, который по сути является скриптом, выполняющимся при каждом открытии терминала
 
-nano ~/.zshrc
-
-alias gh="open 'htpps://github.com/arazyan'"
+```nano ~/.zshrc``` -> alias gh="open 'htpps://github.com/arazyan'"
 
 сохраняем файл и перезапускаем терминал
 
-echo calendar="open https://calendar.google.com" >> ~/.zshrc
+```echo calendar="open https://calendar.google.com" >> ~/.zshrc```
 
 #### Команды для редактора nano
 ctrl+K - вырезать строку
@@ -171,9 +173,9 @@ ctrl + V - конец страницы
 ctrl + стрелки - переход по словам
 
 #### Алиас по предкоманде
-git log --graph --oneline --decorate
+```git log --graph --oneline --decorate```
 
-alias glog="!!"
+```alias glog="!!"```
 
 -> alias glog="git log --graph --oneline --decorate"
 
