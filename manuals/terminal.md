@@ -131,3 +131,8 @@ ctrl + стрелки - переход по словам
 git log --graph --oneline --decorate
 alias glog="!!"
 -> alias glog="git log --graph --oneline --decorate"
+
+* Через программу Automator (MacOs) можно заделать бинд на запуск терминала из любого приложения, у меня это
+```
+ctrl + T
+```
