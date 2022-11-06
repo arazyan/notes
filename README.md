@@ -1,4 +1,4 @@
-# Тут лежат мои конспекты и руководства
+
 
 [git](https://github.com/arazyan/notes/blob/main/manuals/git.md)
 
