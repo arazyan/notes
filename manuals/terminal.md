@@ -3,7 +3,7 @@
 
 **created by** araz abdyev
 
-**tg** @xxx_bulka
+**tg** @aabdyev
 
 # Старт
 **man \*command_name\* - справочник по командам**
