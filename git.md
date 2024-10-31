@@ -1,9 +1,7 @@
 # Git и GitHub
 Краткое руководство
 
-**created by** araz abdyev
-
-**tg** @aabdyev
+created at: Nov 2022
 
 ## Git
 Проверка версии гита

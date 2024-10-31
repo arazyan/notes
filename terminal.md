@@ -1,9 +1,7 @@
 # Терминал
 Краткое руководство
 
-**created by** araz abdyev
-
-**tg** @aabdyev
+created at: Nov 2022
 
 # Старт
 **man \*command_name\* - справочник по командам**
@@ -152,23 +150,23 @@ man mdfind - позволяет получить мануал по какой-т
 
 пример
 
-alias mygithub="open 'https://github.com/arazyan'"
+`alias mygithub="open 'https://github.com/arazyan'"`
 
 удаление алиаса
 
-unalias mygithub
+`unalias mygithub`
 
 #### Создание вечного алиаса
 делается через редактирование скрытого файла *~/.zshrc*, который по сути является скриптом, выполняющимся при каждом открытии терминала
 
-```nano ~/.zshrc``` -> alias gh="open 'htpps://github.com/arazyan'"
+`nano ~/.zshrc` -> alias gh="open 'htpps://github.com/arazyan'"
 
 сохраняем файл и перезапускаем терминал
 
 ```echo calendar="open https://calendar.google.com" >> ~/.zshrc```
 
 #### Команды для редактора nano
-ctrl+K - вырезать строку
+ctrl + K - вырезать строку
 
 ctrl + Y - начало странцы
 
@@ -183,4 +181,3 @@ ctrl + стрелки - переход по словам
 
 -> alias glog="git log --graph --oneline --decorate"
 
-* Через программу Automator (MacOs) можно заделать бинд на запуск терминала из любого приложения, у меня это *ctrl + T*
